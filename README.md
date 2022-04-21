@@ -1,4 +1,4 @@
-# YellowArchitect.github.io
-Website hosting for projects, general information, and whatever I feel like using a website for.
+# Flannelgraph.github.io
+Official website of Flannelgraph.
 
-Link is https://yellowarchitect.github.io/
+Link is https://flannelgraph.net/
