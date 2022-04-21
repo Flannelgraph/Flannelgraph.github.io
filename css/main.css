@@ -44,6 +44,8 @@ ul.posts li {
 }
 
 header {
-    background-color: #ffffff;
+    height: 70px;
+    border-bottom: 1px solid #494949;
+    background-color: #696969;
     display: flex;
 }
