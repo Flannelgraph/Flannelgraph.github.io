@@ -6,22 +6,29 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<header>
-				<h1>Flannelgraph</h1>
-				<nav>
+                  <input type="checkbox" id="hamburger-input" class="burger-shower"/>
+			<header class="page-header">
+				<h1 id="header-text">Flannelgraph</h1>
+			</header>
+			<label id="hamburger-menu" for="hamburger-input">
+                  	<nav id="sidebar-menu">
+					<h1 id="menu-header">Menu</h1>
 					<ul>
 						<li><a href="/">Home</a></li>
 						<li><a href="/games">Games</a></li>
-		        		<li><a href="/about">About</a></li>
-	        			<li><a href="/blog">Blog</a></li>
+		       			<li><a href="/about">About</a></li>
+	        				<li><a href="/blog">Blog</a></li>
 					</ul>
 				</nav>
-			</header>
-			<div class="container">
+			</label>
+                  <div class="overlay"></div>
+			<main>
+				<div class="container">
 			
-			{{ content }}
+				{{ content }}
 			
-			</div><!-- /.container -->
+				</div><!-- /.container -->
+			</main>
 			<footer>
 	    		<ul>
 	        		<li><a href="https://github.com/Flannelgraph">Flannelgraph GitHub</a></li>
