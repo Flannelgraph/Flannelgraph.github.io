@@ -11,7 +11,7 @@ main {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0px 15px;
     list-style: none;
     font-weight: bold;
 }
@@ -43,6 +43,15 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+#sig-top {
+    margin-top: 2em;
+    line-height: 0em;
+}
+#sig-bottom{
+    line-height: 0.6em;
+}
+
 footer {
     border-top: 1px solid;
     font-size: .8em;
@@ -71,6 +80,12 @@ header {
 #header-text{
     margin-top: 23px;
     margin-left: 100px;
+}
+#header-text a {
+    color: black;
+}
+#header-text a:hover {
+  text-decoration: none;
 }
 
 #menu-header {
@@ -101,6 +116,20 @@ header {
       #ffe066 80%, #ffe066 100%
     );
 }
+#hamburger-menu:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      to bottom, 
+      #b30000, #b30000 20%, 
+      #696969 20%, #696969 40%, 
+      #b30000 40%, #b30000 60%, 
+      #696969 60%, #696969 80%, 
+      #b30000 80%, #b30000 100%
+    );
+}
+#hamburger-menu nav:hover, #hamburger-menu div:hover {
+    cursor: default;
+}
 
 #hamburger-menu #sidebar-menu {
     visibilty: hidden;
@@ -111,7 +140,7 @@ header {
     height: 100%;
     background-color: #ffe066;
     transition: 0.3s;
-    padding: 0px 10px;
+    padding: 0px 20px;
     box-sizing: border-box;
 }
 
@@ -126,7 +155,7 @@ header {
 }
 
 #hamburger-menu a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-decoration: none;
 }
 
